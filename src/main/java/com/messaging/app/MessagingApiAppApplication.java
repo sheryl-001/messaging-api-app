@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessagingApiAppApplication {
 	
-	@GetMapping("message")
+	@GetMapping("enjoyWeekend")
 	public String printGreetings() {
-		return "SHERYL SHARON G";
+		return "Saturday and Sunday";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
