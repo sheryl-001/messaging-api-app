@@ -13,6 +13,11 @@ public class MessagingApiAppApplication {
 	public String printGreetings() {
 		return "Saturday and Sunday";
 	}
+	
+	@GetMapping("dontEnjoyWeekday")
+	public String printGreetings2() {
+		return "MTWTF";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
 		System.out.println("HI787");
