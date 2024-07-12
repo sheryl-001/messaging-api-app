@@ -11,7 +11,7 @@ public class MessagingApiAppApplication {
 	
 	@GetMapping("message")
 	public String printGreetings() {
-		return "Hi Oracle";
+		return "SHERYL SHARON G";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
