@@ -20,7 +20,7 @@ public class MessagingApiAppApplication {
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
-		System.out.println("HI787");
+		System.out.println("Hello Folks!\nThis is my first messaging API app ;)");
 	}
 
 }
